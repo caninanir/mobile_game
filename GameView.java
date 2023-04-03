@@ -1,5 +1,14 @@
 package com.game_prototype.meteor2;
 
+/*
+* This GameView implementation sets up the game thread and manages the game state.
+* It also handles touch events by delegating them to the current game state.
+* The update() and draw() methods are called by the game thread to update game logic and render graphics, respectively.
+* The setState() method is used to switch between game states. Finally, the pause() and resume()
+* methods control the game thread's execution based on the app's lifecycle.
+* */
+
+
 import android.content.Context;
 import android.graphics.Canvas;
 import android.view.MotionEvent;
